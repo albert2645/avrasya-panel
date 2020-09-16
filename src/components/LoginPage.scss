@@ -1,0 +1,73 @@
+@font-face {
+    src: url(./fonts/Grandstander-Regular.ttf);
+    font-family: grandstander;
+}
+
+.bg {
+    background-color: rgb(225, 069, 085);
+}
+.container {
+    margin: 0 auto;
+    width: 50%;
+    height: 100vh;
+}
+
+.login-panel {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    
+    form {
+        width: 100%;
+        height: 250px;
+        background-color: rgb(185, 140, 145);
+        border-radius: 35px;
+        box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);
+    }
+
+    .input-elements {
+        display: flex;
+        flex-flow: column;
+        width: 80%;
+        margin: 0 auto;
+        
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+
+        .username {
+            width: 100%;
+            border: none;
+            margin: 10px 0;
+            padding: 10px 10px;
+            border-radius: 6px;
+            font-family: grandstander;
+            color: rgba(0, 0, 0, 0.7);
+        }
+
+        .passwd {
+            width: 100%;
+            border: none;
+            margin: 10px 0;
+            padding: 10px 10px;
+            border-radius: 6px;
+            font-family: grandstander;
+            color: rgba(0, 0, 0, 0.7);
+            margin-bottom: 24px;
+        }
+
+        .sendit {
+            align-self: center;
+            margin: 10px 0;
+            color: #fff;
+            padding: 12px 40px;
+            border: 1px #fff solid;
+            border-radius: 6px;
+            background-color: rgb(225, 069, 085);
+        }
+    }
+    
+}
