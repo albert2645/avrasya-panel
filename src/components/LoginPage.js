@@ -10,7 +10,7 @@ const LoginPage = () => {
                         <div className="input-elements">
                         <label className="login-header">Login</label>
                             <input type="text" className="username" placeholder="Username" />
-                            <input type="text" className="passwd" placeholder="Password" />
+                            <input type="password" className="passwd" placeholder="Password" />
                             <input type="submit" className="sendit" value="Giris" />
                         </div>
                     </form>
