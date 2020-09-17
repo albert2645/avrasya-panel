@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    src: url(../fonts/Enchanted-Land.otf);
+    font-family: fantastic;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+
+  .container {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      margin-right: auto;
+      margin-left: 0;
+      align-items: center;
+
+      .homeui {
+          background-color: rgba(0, 0, 0, 0.5);
+          height: 450px;
+          width: 70%;
+          margin-left: 100px;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          flex-flow: column;
+
+          .logo p {
+            font-family: 'fantastic';
+            font-size: 4.3em;
+            margin: 0;
+            margin-top: 40px;
+            text-transform: uppercase;
+            transform: scale(1, 1.4);
+          }
+
+          .server-status {
+              margin: 60px;
+              font-size: 1.4em;
+
+              span {
+                  color: green;
+              }
+          }
+
+          .btn {
+            border: 2px solid black;
+            background-color: transparent;
+            color: black;
+            padding: 14px 60px;
+            font-size: 16px;
+            cursor: pointer;
+            text-transform: uppercase;
+          }
+
+          .success {
+            border-color: #4CAF50;
+            color: green;
+          }
+
+          .success:hover {
+            background-color: #4CAF50;
+            color: white;
+          }
+      }
+  }
+}
