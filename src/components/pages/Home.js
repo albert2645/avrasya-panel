@@ -1,6 +1,6 @@
 import React from 'react';
-import './style/Home.scss';
-import video from './assets/background-video.mov';
+import '../style/Home.scss';
+import video from '../../assets/animation/background-video.mov';
 
 const Home = () => {
     return (
